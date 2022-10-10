@@ -34,9 +34,9 @@ main{
 }
 
 .box {
-  padding: 1em;
+  padding: .9em;
   padding-bottom: 2.5em;
-  width: min(90%,19rem);
+  width: min(90%,20rem);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,7 +58,7 @@ main{
   width: 19ch;
   color: var(--Dark-blue);
   text-align: center;
-  font-size: clamp(1.3rem, 1.6vw, 1.5rem);
+  font-size: clamp(1.3rem, 1.5vw, 1.5rem);
 }
 
 .box__content {
